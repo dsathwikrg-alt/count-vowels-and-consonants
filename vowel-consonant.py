@@ -1,8 +1,8 @@
 import re
-from typing import List,Any
+from typing import List,Any,Tuple
 
 
-def vowel_consonant(string_input: str) -> int:
+def vowel_consonant(string_input: str) -> Tuple[int,int]:
 
     input_string = string_input
 
@@ -32,7 +32,7 @@ def main():
     print(f'The number of consonants in the string {user_input} is {consonant_count}')
 
 if __name__=='__main__':
-    main()    
+    main()  
 
 
 
